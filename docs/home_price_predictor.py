@@ -1,9 +1,9 @@
-import pandas as pd  # csv dataframes
-import streamlit as st  # building web app
-from sklearn.linear_model import LinearRegression  # build LR model
-from sklearn.metrics import mean_squared_error  # evaluate model performance
-from xgboost import XGBRegressor  # XGBoost regression model
-from sklearn.model_selection import train_test_split  # split data into train and test sets
+import pandas as pd  
+import streamlit as st 
+from sklearn.linear_model import LinearRegression  
+from sklearn.metrics import mean_squared_error  
+from xgboost import XGBRegressor  
+from sklearn.model_selection import train_test_split  
 import logging
 import matplotlib.pyplot as plt
 from datetime import datetime 
